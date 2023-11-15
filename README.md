@@ -25,8 +25,12 @@ You can now see a live preview every time you want to work on the theme:
 
 ## Usage
 
-To use this theme on a discourse instance, follow these steps:
-
-1. in discourse, go to Admin > Customize > Themes
+### Installation
+1. In discourse, go to Admin > Customize > Themes
 2. click the Install button and choose "From a git repository"
 3. Enter the URL of this repo: `https://github.com/godotengine/discourse-theme`
+
+### Updates
+1. In discourse, go to Admin > Customize > Themes
+2. Select the "Godot Theme"
+3. Click "Check for Updates"
