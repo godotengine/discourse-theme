@@ -7,7 +7,7 @@ A Godot styled theme for discourse.
 You can use the discourse theme CLI to automatically push changes to a live website.
 Please follow the instructions in the [official CLI documentation](https://meta.discourse.org/t/install-the-discourse-theme-cli-console-app-to-help-you-build-themes/82950).
 
-> ⚠️ **Note:** Please only sync to the theme creator website, not to the public Godot forum.
+> ⚠️ **Note:** Please only use this to sync to the theme creator website, not to the public Godot forum. See [Usage](#usage) for instructions on updating the live website.
 
 Once the CLI is installed, follow these steps as a one time setup:
 1. Go to [discourse.theme-creator.io/my/themes](https://discourse.theme-creator.io/my/themes)
