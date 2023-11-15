@@ -2,5 +2,21 @@
   "name": "Godot Theme",
   "component": false,
   "license_url": "https://github.com/godotengine/discourse-theme/blob/main/LICENSE",
-  "about_url": "https://github.com/godotengine/discourse-theme"
+  "about_url": "https://github.com/godotengine/discourse-theme",
+  "color_schemes": {
+    "Godot": {
+      "primary": "dddddd",
+      "secondary": "202326",
+      "tertiary": "85c2e0",
+      "quaternary": "f57389",
+      "header_background": "333639",
+      "header_primary": "eeeeee",
+      "highlight": "f6aa78",
+      "selected": "2c2c2c",
+      "hover": "353535",
+      "danger": "e45735",
+      "success": "67e6bb",
+      "love": "f57389"
+    }
+  }
 }
