@@ -12,8 +12,9 @@ Please follow the instructions in the [official CLI documentation](https://meta.
 Once the CLI is installed, follow these steps as a one time setup:
 1. Go to [discourse.theme-creator.io/my/themes](https://discourse.theme-creator.io/my/themes)
 2. Select "Install" > "From a git repository" and enter `https://github.com/godotengine/discourse-theme`
-3. Select "Advanced" and then "Edit Locally"
-4. Generate and copy an API key (store it somewhere!)
+3. Reload the website, select the "Godot Theme" again
+4. Scroll down, select "Advanced" and change the "Color Palette" to "Godot"
+5. Click "Edit Locally" and generate and copy an API key (store it somewhere!)
 
 You can now see a live preview every time you want to work on the theme:
 1. On your local machine: open a terminal, navigate to the repository root directory and enter `discourse_theme watch .`
