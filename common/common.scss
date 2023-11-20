@@ -1,0 +1,125 @@
+
+:root {
+	--theme-radius: 8px;
+}
+
+
+
+/* Round Categories */
+
+.category-boxes .category-box {
+	// remove default color bar
+	border: none;
+}
+
+.category-boxes .category-box-inner {
+	// Change to a colored and rounded box without a border
+	background-color: var(--header_background);
+	border-radius: var(--theme-radius);
+	border-color: var(--secondary-high);
+	border-width: 0px;
+}
+
+.category-boxes .description {
+	// Improve contrast
+	color: var(--primary-800);
+}
+
+.category-boxes .category-box-heading h3::before {
+	// Show a round circle with the category color in front of the title
+	content: '⬤';
+	font-size: smaller;
+	transform: translateY(-3px);
+	display: inline-block;
+	color: var(--category-color);
+	text-shadow: 0px 0px 2px var(--secondary);
+}
+
+
+
+/* Circles for Badge Bullets */
+
+.badge-wrapper.bullet .badge-category::before, // badges in category list
+.link-bottom-line .badge-category::before, // badges in latest list
+.sidebar-section-link-prefix.span span // badges in sidebar
+{
+	border-radius: 50%;
+}
+
+
+
+/* Search Banner */
+
+.search-banner {
+	background-image:
+		linear-gradient(to bottom, transparent, var(--secondary)),
+		var(--custom-bg);
+}
+
+.search-banner .wrap.custom-search-banner-wrap {
+	// Add a bit more spacing so that it doesn't look too chaotic
+	// with the nodes in the background image
+	margin-top: 0px;
+	padding: 3.5em 0 4.5em;
+}
+
+.search-banner .wrap.custom-search-banner-wrap h1,
+.search-banner .wrap.custom-search-banner-wrap p {
+	// Improve readability with background image
+	text-shadow: 0px 0px 12px var(--secondary);
+}
+
+.search-banner .wrap.custom-search-banner-wrap .search-input,
+.search-banner .wrap.custom-search-banner-wrap .results {
+	// Visually separate search box from background
+	border: 1px solid var(--tertiary-400);
+}
+
+/* Topics and Posts */
+
+.topic-map {
+	// Create solid border around whole topic map
+	border-radius: var(--theme-radius);
+	border: 1px solid var(--blend-primary-secondary-5);
+}
+
+.topic-map .map {
+	// Don't use border on the map itself
+	border: none;
+}
+
+.topic-map .map .btn {
+	// Make the button rounded top right if the map is extended
+	border-radius: 0px var(--theme-radius) 0px 0px;
+}
+
+.topic-map .map-collapsed .btn {
+	// Make the button rounded top and botom right if the map is collapsed
+	border-radius: 0px var(--theme-radius) var(--theme-radius) 0px;
+}
+
+.topic-map .topic-map-expanded {
+	// Line between sections should have the same style as the outline
+	border-top: 1px solid var(--blend-primary-secondary-5);
+}
+
+.topic-post .quote > *:first-child {
+	// Round top of quotes
+	border-radius: var(--theme-radius) var(--theme-radius) 0px 0px;
+}
+.topic-post .quote > *:last-child {
+	// Round bottom of quotes
+	border-radius: 0px 0px var(--theme-radius) var(--theme-radius);
+}
+
+.topic-post pre {
+	// No max height for code snippets
+	max-height: none;
+}
+
+.topic-post pre code {
+	// Round code snippets
+	border-radius: var(--theme-radius);
+	// No max height for code snippets
+	max-height: none;
+}
