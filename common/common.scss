@@ -36,6 +36,23 @@
 }
 
 
+/* Alert banner */
+
+.alert.alert-info {
+	border-radius: var(--theme-radius);
+}
+
+
+/* Navigation bar elements */
+.nav-pills > li > a, .nav-pills > li button {
+	border-radius: var(--theme-radius);
+}
+
+.nav-pills > li > a:hover, .nav-pills > li button:hover {
+	color: #fff;
+  background-color: #f573895c;
+}
+
 
 /* Circles for Badge Bullets */
 
