@@ -50,7 +50,6 @@
 
 .nav-pills > li > a:hover, .nav-pills > li button:hover {
 	color: #fff;
-  background-color: #f573895c;
 }
 
 
@@ -90,6 +89,15 @@
 .search-banner .wrap.custom-search-banner-wrap .results {
 	// Visually separate search box from background
 	border: 1px solid var(--tertiary-400);
+}
+
+.custom-search-banner-wrap .search-input {
+	border-radius: var(--theme-radius);
+}
+
+.custom-search-banner-wrap .results {
+	margin-top: 6px;
+	border-radius: var(--theme-radius);
 }
 
 /* Topics and Posts */
