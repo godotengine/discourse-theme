@@ -36,6 +36,7 @@
 }
 
 
+
 /* Alert banner */
 
 .alert.alert-info {
@@ -51,6 +52,7 @@
 .nav-pills > li > a:hover, .nav-pills > li button:hover {
 	color: #fff;
 }
+
 
 
 /* Circles for Badge Bullets */
@@ -100,6 +102,8 @@
 	border-radius: var(--theme-radius);
 }
 
+
+
 /* Topics and Posts */
 
 .topic-map {
@@ -147,4 +151,11 @@
 	border-radius: var(--theme-radius);
 	// No max height for code snippets
 	max-height: none;
+}
+
+
+
+/* Hide Sign-Up button (login button has same functionality) */
+.header-buttons > .sign-up-button {
+	display: none;
 }
