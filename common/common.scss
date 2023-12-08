@@ -66,6 +66,14 @@
 
 
 
+/* Green Checkmarks for Solved Topics */
+
+.topic-status > .solved {
+	color: var(--success-medium);
+}
+
+
+
 /* Search Banner */
 
 .search-banner {
