@@ -25,18 +25,13 @@
 	color: var(--primary-800);
 }
 
-.category-boxes .category-box-heading h3 {
-	// Use 
-	color: var(--category-color);
-}
-
 .category-boxes .category-box-heading h3::before {
 	// Show a round circle with the category color in front of the title
 	content: '⬤';
 	font-size: smaller;
 	transform: translateY(-3px);
 	display: inline-block;
-	color: var(--category-color);
+	color: var(--category-badge-color);
 	text-shadow: 0px 0px 2px var(--secondary);
 }
 
