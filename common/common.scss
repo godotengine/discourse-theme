@@ -74,6 +74,43 @@
 
 
 
+/* Action Buttons on Posts */
+
+nav.post-controls .actions .extra-buttons button,
+nav.post-controls .actions > button {
+	border-radius: var(--theme-radius);
+}
+nav.post-controls .actions .double-button button:first-child {
+	border-top-left-radius: var(--theme-radius);
+	border-bottom-left-radius: var(--theme-radius);
+}
+nav.post-controls .actions .double-button button:last-child {
+	border-top-right-radius: var(--theme-radius);
+	border-bottom-right-radius: var(--theme-radius);
+}
+
+nav.post-controls .actions .unaccepted .d-icon,
+nav.post-controls .actions .double-button button.like .d-icon,
+nav.post-controls .actions .double-button button.toggle-like .d-icon {
+	color: var(--success-medium) !important;
+}
+
+nav.post-controls .actions .unaccepted.d-hover .d-icon,
+nav.post-controls .actions .double-button:hover button.like .d-icon,
+nav.post-controls .actions .double-button:hover button.regular-likes,
+nav.post-controls .actions .double-button:hover button.toggle-like .d-icon {
+	color: var(--secondary) !important;
+}
+
+nav.post-controls .actions .unaccepted.d-hover,
+nav.post-controls .actions .double-button:hover button.like,
+nav.post-controls .actions .double-button:hover button.regular-likes,
+nav.post-controls .actions .double-button:hover button.toggle-like {
+	background-color: var(--success-medium) !important;
+}
+
+
+
 /* Search Banner */
 
 .search-banner {
