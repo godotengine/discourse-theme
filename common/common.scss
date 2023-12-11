@@ -69,7 +69,7 @@
 /* Green Checkmarks for Solved Topics */
 
 .topic-status > .solved {
-	color: var(--success-medium);
+	color: var(--success);
 }
 
 
@@ -92,7 +92,7 @@ nav.post-controls .actions .double-button button:last-child {
 nav.post-controls .actions .unaccepted .d-icon,
 nav.post-controls .actions .double-button button.like .d-icon,
 nav.post-controls .actions .double-button button.toggle-like .d-icon {
-	color: var(--success-medium) !important;
+	color: var(--success) !important;
 }
 
 nav.post-controls .actions .unaccepted.d-hover .d-icon,
@@ -106,7 +106,7 @@ nav.post-controls .actions .unaccepted.d-hover,
 nav.post-controls .actions .double-button:hover button.like,
 nav.post-controls .actions .double-button:hover button.regular-likes,
 nav.post-controls .actions .double-button:hover button.toggle-like {
-	background-color: var(--success-medium) !important;
+	background-color: var(--success) !important;
 }
 
 
