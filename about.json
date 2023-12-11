@@ -4,12 +4,29 @@
   "license_url": "https://github.com/godotengine/discourse-theme/blob/main/LICENSE",
   "about_url": "https://github.com/godotengine/discourse-theme",
   "color_schemes": {
-    "Godot": {
+    "Godot Light": {
+      "primary": "0f1012",
+      "secondary": "f1f1f1",
+      "tertiary": "478cc0",
+      "tertiary-low": "bad9f0",
+      "quaternary": "396f99",
+      "quaternary-low": "739dbd",
+      "highlight-bg": "739dbd",
+      "header_background": "ededed",
+      "header_primary": "333639",
+      "highlight": "f6aa78",
+      "selected": "d4d4d4",
+      "hover": "c9c9c9",
+      "danger": "e45735",
+      "success": "67e6bb",
+      "love": "f57389"
+    },
+    "Godot Dark": {
       "primary": "dddddd",
       "secondary": "202326",
       "tertiary": "85c2e0",
-      "quaternary": "f57389",
-      "quaternary-low": "f573895c",
+      "quaternary": "478cc0",
+      "quaternary-low": "1a364d",
       "highlight-bg": "10456c",
       "header_background": "333639",
       "header_primary": "eeeeee",
